@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/border"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/tv_edt_tensinhvien"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Tên sinh viên"/>
+    <EditText
+        android:id="@+id/tv_edt_tenlop"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Lớp"/>
+    <Spinner
+        android:id="@+id/spiner_edt_teacher"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="Sửa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_edt_themSinhVien"/>
+</LinearLayout>
